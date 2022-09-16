@@ -1,0 +1,36 @@
+// Base
+@import './base/vars';
+@import './base/mixins';
+@import './base/base';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/button-round';
+@import './blocks/nav-icon';
+@import './blocks/nav';
+@import './blocks/search';
+@import './blocks/form';
+@import './blocks/button';
+@import './blocks/card';
+@import './blocks/title';
+@import './blocks/subtitle';
+@import './blocks/package';
+@import './blocks/button-outline';
+@import './blocks/button-solid';
+@import './blocks/slider';
+@import './owlcarousel-clients-theme/vars';
+@import './owlcarousel-clients-theme/theme';
+@import './blocks/footer';
+
+
+
+// Sections
+@import './sections/section-functional';
+@import './sections/section-cta';
+@import './sections/section-tasks';
+@import './sections/section-focus';
+@import './sections/section-prices';
+@import './sections/section-clients';
+
+// Media
+@import './media/media';

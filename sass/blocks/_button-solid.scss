@@ -1,0 +1,9 @@
+.button-solid {
+    background-color: #FFFFFF;
+    border: none;
+    color: $textDefaultColor;
+    
+    @extend %button;
+
+    &:hover {color: #FFFFFF;}
+}

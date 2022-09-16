@@ -1,0 +1,38 @@
+@mixin bgImage($name) {
+    background-image: url($name);
+    background-position: center;
+    background-size: cover; 
+}
+
+%overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .35);
+}
+
+%button {
+    color: #fff;
+    border-radius: 30px;
+    width: 246px;
+    height: 60px;
+
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 60px;
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .1s ease-in;
+
+    &:hover {background-color: #00ad62;}
+    &:focus {
+        outline: none;
+        background-color: #009756;
+    }
+}
+

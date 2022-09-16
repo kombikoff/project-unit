@@ -1,0 +1,14 @@
+.button {
+    background-color: #00C470;
+    border: none;
+    
+    @extend %button;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 100%;
+    }
+}
+
+
+
